@@ -1,0 +1,1 @@
+Frontend updated. Set environment.backendUrl and run npm install && ng serve. Ensure backend is running.

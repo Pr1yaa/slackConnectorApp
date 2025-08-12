@@ -1,0 +1,1 @@
+import { Component } from '@angular/core'; import { AuthService } from './service/auth.service'; @Component({selector:'app-install', template:`<h2>Install</h2><button (click)='install()'>Install to Slack</button>`}) export class InstallComponent{ constructor(private a:AuthService){} install(){this.a.startInstall();}}
